@@ -13,3 +13,11 @@
 
 return array(
 );
+
+return array(
+    'db' => array(
+        'username' => 'root',
+        'password' => 's4k1l4',
+    ),
+);
+

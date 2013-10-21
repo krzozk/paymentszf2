@@ -7,7 +7,7 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 
-namespace Application\Controller;
+namespace Stripepb\Controller;
 
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
@@ -18,7 +18,7 @@ class IndexController extends AbstractActionController
     {
         return new ViewModel();
     }
-    public function formpbAction()
+    public function formAction()
     {
         return new ViewModel();
     }
