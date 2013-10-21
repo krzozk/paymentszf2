@@ -6,7 +6,8 @@ return array(
         'SpeckPaypal',
 	    'ZendCart',
         'Users',
-        'Stripepb'
+        'Stripepb',
+        'Balancedpb'
     ),
 
     // These are various options for the listeners attached to the ModuleManager
