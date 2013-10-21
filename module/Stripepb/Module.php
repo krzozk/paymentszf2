@@ -32,8 +32,26 @@ class Module
             'Zend\Loader\StandardAutoloader' => array(
                 'namespaces' => array(
                     __NAMESPACE__ => __DIR__ . '/src/' . __NAMESPACE__,
+                    //'Stripe' => __DIR__ . '/../../vendor/stripe1/lib/',
+                    'Stripe' => __DIR__ . '/../../vendor/stripe/stripe-php/lib/Stripe',
                 ),
             ),
         );
     }
+/*
+    public function getAutoloaderConfig()
+    {
+        $return = array(
+            'Zend\Loader\ClassMapAutoloader' => array(
+                __DIR__ . '/autoload_classmap.php'
+            ),
+            'Zend\Loader\StandardAutoloader' => array(
+                'namespaces' => array(
+                    __NAMESPACE__ => __DIR__ . '/src/' . __NAMESPACE__,
+
+                )
+            )
+        );
+    }*/
+
 }
